@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="Author" content="Mayank Garg" />
+    <meta name="Description" content="create login form with semantic HTML tags" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design </title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Courage&family=Roboto:wght@100&display=swap');
+body{
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:white;
+}
+.container{
+    width:500px;
+    height:500px;
+}
+.circle{
+    width:140px;
+    height:140px;
+    border:4px solid black;
+    border-radius:50%;
+    position:absolute;
+    left:110px;
+    top:15px;
+}
+.l1{
+    position:absolute;
+    width:190px;
+    height:4px;
+    background:black;
+    top:160px;
+    left:140px;
+}
+.l2{
+    position:absolute;
+    width:4px;
+    height:180px;
+    background:black;
+    top:160px;
+    left:140px;
+}
+.cross1,
+.cross2{
+    position:absolute;
+    width:200px;
+    height:4px;
+    background:black;
+    top:400px;
+    left:120px;
+}
+ .cross1{
+    transform:rotate(40deg);
+ } 
+.cross2{
+    transform:rotate(-40deg);
+} 
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="circle"></div>
+    <div class="l1"></div>
+    <div class="l2"></div>
+    <div class="cross1"></div>
+    <div class="cross2"></div>
+</div>
+</body>
+</html>
