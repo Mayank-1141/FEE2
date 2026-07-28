@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Layout</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Top Box */
+        .top-box {
+            width: 45%;
+            height: 170px;
+            margin: 40px auto;
+
+            background: rgba(255, 255, 255, 0.15);
+            border: 2px solid rgba(255, 255, 255, 0.4);
+            border-radius: 10px;
+            color: white;
+            font-size: 28px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            backdrop-filter: blur(8px);
+        }
+
+        /* Bottom Container */
+        .bottom {
+            width: 90%;
+            margin: 250px auto 0;
+            text-align: center;
+        }
+
+        /* Bottom Boxes */
+        .box {
+            width: 30%;
+            height: 160px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 10px;
+
+            background: rgba(255, 255, 255, 0.15);
+            border: 2px solid rgba(255, 255, 255, 0.4);
+            border-radius: 10px;
+            color: white;
+            font-size: 26px;
+
+            backdrop-filter: blur(8px);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="top-box">
+        Box1
+    </div>
+
+    <div class="bottom">
+        <div class="box">
+            Box2
+        </div>
+
+        <div class="box">
+            Box3
+        </div>
+
+        <div class="box">
+            Box4
+        </div>
+    </div>
+
+</body>
+
+</html>
