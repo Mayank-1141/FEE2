@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="Author" content="Mayank Garg" />
+    <meta name="Description" content="create login form with semantic HTML tags" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN FORM</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Courage&family=Roboto:wght@100&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            min-height:100vh;
+            background-color: #f2f2f2;
+            font-family: 'Roboto', sans-serif;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+        section{
+            background-color: #fff;
+            width:20rem;
+            padding:8px;
+            border-radius: 0.5rem;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            font-size: 1.2rem;
+            display:flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <main>
+    <section>
+        <h1>Login</h1>
+
+        <form action="#">
+            <p>
+                <label for="username">Username</label><br>
+                <input type="text" id="username" name="username" required>
+            </p>
+
+            <br>
+
+            <p>
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" required>
+            </p>
+
+            <br>
+
+            <button type="submit">Login</button>
+        </form>
+
+    </section>
+</main>
+<!-- <section>
+    <h1>Login</h1>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="Login">
+    </form>
+</section> -->
+</body>
+</html>

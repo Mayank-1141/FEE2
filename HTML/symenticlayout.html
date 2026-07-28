@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Layout</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        body{
+            font-family:Arial, sans-serif;
+        }
+        nav{
+            background-color:#352f2f;
+            color:white;
+            padding:20px;
+            text-align:center;
+            font-size:24px;
+        }
+        .container{
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            height:500px;
+        }
+        aside{
+            background-color:lightcoral;
+            width:25%;
+            padding:20px;
+        }
+        main{
+            background-color:lightgreen;
+            width:50%;
+            padding:20px;
+        }
+        article{
+            background-color:lightskyblue;
+            width:25%;
+            padding:20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        Navigation Bar
+    </nav>
+    <div class="container">
+        <aside>
+            <p>This is the sidebar.</p>
+        </aside>
+        <main>
+            <p>This is the main section.</p>
+        </main>
+        <article>
+            <p>This is the article section.</p>
+        </article>
+    </div>
+</body>
+</html>

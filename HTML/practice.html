@@ -1,0 +1,230 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family:Arial, sans-serif;
+    }
+
+    .container{
+      display:grid;
+      grid-template-columns: 25rem 25rem;   /* Equal partition */
+      grid-template-rows: 4.5rem 25rem 4rem;
+      height:100vh;
+      justify-content:center;               /* Center the grid */
+    }
+
+    .logo,
+    .links,
+    .main,
+    .footer1,
+    .footer2{
+      border:2px solid white;
+      background:#555;
+      color:white;
+    }
+
+    .logo{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+
+    .links{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+
+    .main{
+      grid-column:1/3;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      gap:2.5rem;
+    }
+
+    .box{
+      width:7.2rem;
+      height:7.2rem;
+      background:#1e90ff;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      padding:0.6rem;
+    }
+
+    .footer1,
+    .footer2{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="container">
+
+    <section class="logo">Logo</section>
+
+    <section class="links">Links</section>
+
+    <section class="main">
+      <section class="box">Small Square Box</section>
+      <section class="box">Small Square Box</section>
+    </section>
+
+    <section class="footer1">Footer1</section>
+
+    <section class="footer2">Footer2</section>
+
+  </section>
+
+</body>
+</html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Design</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:Arial, sans-serif;
+            background:#00021c;
+            color:white;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            min-height:100vh;
+        }
+
+        .container{
+            display:grid;
+            grid-template-columns:1fr 1fr;
+            grid-template-rows:80px 1fr 80px;
+
+            width:90%;
+            max-width:1000px;
+            height:85vh;
+
+            border:2px solid white;
+            gap:2px;
+            margin:20px;
+        }
+
+        .box{
+            border:1px solid white;
+            padding:10px;
+        }
+
+        /* Header */
+        .header-left{
+            grid-column:1;
+            grid-row:1;
+        }
+
+        .header-right{
+            grid-column:2;
+            grid-row:1;
+        }
+
+        /* Middle Section */
+        .content{
+            grid-column:1 / 3;
+            grid-row:2;
+
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            gap:35px;
+        }
+
+        .rectangle{
+            width:320px;
+            height:80px;
+            background:linear-gradient(to bottom,#588afd,#0f1fff);
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            border-radius:5px;
+            font-size:18px;
+            font-weight:bold;
+        }
+
+        /* Footer */
+        .footer-left{
+            grid-column:1;
+            grid-row:3;
+        }
+
+        .footer-right{
+            grid-column:2;
+            grid-row:3;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <div class="box header-left">
+            Logo
+        </div>
+
+        <div class="box header-right">
+            Links
+        </div>
+
+        <!-- Middle -->
+        <div class="box content">
+            <div class="rectangle">
+                Rectangle 1
+            </div>
+
+            <div class="rectangle">
+                Rectangle 2
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="box footer-left">
+            Footer 1
+        </div>
+
+        <div class="box footer-right">
+            Footer 2
+        </div>
+
+    </div>
+
+</body>
+</html>

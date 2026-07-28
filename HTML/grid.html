@@ -1,0 +1,155 @@
+<!-- <!--  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content ="width=device-width, initial-scale=1.0" />
+    <meta name="Author" content="Mayank Garg" />
+    <title>GRID BOX</title>
+    <link rel="stylesheet" href="" />
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+body{
+
+}
+.box{
+    background-color: darkred;
+    color:white;
+    padding:1rem;
+}
+.gc{
+    display:grid;
+    gap: 0.5rem;
+    grid-template-columns: 150px 250px;
+    grid-template-rows: repeat(3,150px);
+    place-content: center;
+}
+/* @media(min-width:767px){
+
+} */
+</style>
+</head>
+<body>
+    header footer then in middle the grid system
+<section class="box" style="height: 10vh">
+<span style="font-size: 2.5rem; margin-right :1rem">&#9812</span>Header</section>
+
+<section class="box gc"
+style="height: 80vh; background-color: white;">
+<main class="box" id="m1">Main-1</main>
+<main class="box" id="m2">Main-2</main>
+<main class="box" id="m3">Main-3</main>
+<main class="box" id="m4">Main-4</main>
+<main class="box" id="m5">Main-5</main>
+<main class="box" id="m6">Main-6</main>
+</section>
+<section
+class="box" style="position: absolute; bottom:0;left:0; height:10vh;width: 100%;">  FOOTER</section>
+<script></script>
+</body>
+</html> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Mayank Garg" />
+    <title>Grid</title>
+    <link rel="stylesheet" href="" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            min-height: 100dvh;
+            font-family: "Courgette", sans-serif;
+            font-size: 16px;
+            background-color: white;
+            color: white;
+        }
+        .box {
+            background-color: darkred;
+            color: white;
+            padding: 1rem;
+        }
+        .gc {
+            display: grid;
+            gap: 0.5rem;
+            grid-template-columns: 150px 250px; /*specify width of columns */
+            grid-template-rows: repeat(3,150px); /*specify height of rows */
+            place-content: center; /*center whole grid */
+        }
+    </style>
+</head>
+<body>
+    <section class="box" style="height:10vh">
+        <span style="font-size: 2.5rem;margin-right: 1rem">&#9812</span> Header/NavBar </section>
+    <section
+        class="box gc"
+        style="height:80vh;background-color: white">
+        <main class="box" id="m1">Content-1</main>
+        <main class="box" id="m1">Content-2</main>
+        <main class="box" id="m1">Content-3</main>
+        <main class="box" id="m1">Content-4</main>
+        <main class="box" id="m1">Content-5</main>
+        <main class="box" id="m1">Content-6</main>
+    </section>
+        <section 
+           class="box"
+           style="position: absolute;bottom: 0; left: 0; height:10vh">
+           <span style="font-size: 1.5rem;margin-right:1rem">&#977</span>
+        </section>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            background-color: darkred;
+            color: rgb(14, 13, 13);
+            padding: 1rem;
+            
+        }
+        .gc {
+            display: grid;
+            gap: 0.5rem;
+            grid-template-columns: 150px 250px;
+            grid-template-rows: repeat(3,150px);
+            place-content:center;
+        }
+        @media (min-width:767px){
+        .gc{
+            grid-template-columns: 200px 200px 200px;
+            grid-template-rows: 200px 200px;
+        }
+    }
+        @media(max-width:1024px){
+        }
+    </style>
+</head>
+<body>
+    <section class="box" style="height: 10vh;">
+        <span style="font-size: 2.5rem; margin-right: 1rem;">&#9812</span>Header/Navbar
+    </section>
+    <section class="box gc" style="height: 80vh; background-color: aliceblue;">
+        <main class="box" id="m1">Content-1</main>
+        <main class="box" id="m2">Content-2</main>
+        <main class="box" id="m3">Content-3</main>
+        <main class="box" id="m4">Content-4</main>
+        <main class="box" id="m5">Content-5</main>
+        <main class="box" id="m6">Content-6</main>
+    </section>
+    <section class="box" style="height:10vh; ">
+    <span style="font-size: 1.5rem; margin-right: 1rem;">&#9776</span>
+    </section>
+</body>
+
+</html> -->

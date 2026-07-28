@@ -1,0 +1,13 @@
+1. developers use javascript to make amazon g-pay apps interactive.
+2. interactive <RESPONSIVE> means web page responds to actions of users visiting the web page or using web applications.
+3. It ishigh level lang with automatic memory manangement.
+4. js is stored in script tags.
+5. Googe chrome microsoft edge use v8 engine for execution of js code.
+6. mozilla firefox uses spidermonkey for execution of js code.
+7. apple safari uses js for execution of js code.
+8. JS is DYNAMICALLY TYPED LANGUAGE
+ 
+9.////////////////////array and obj///////////////////
+array is usually a collection of values with same data type .JSs array can hold values of different values like records 
+obj is collectionof related values like records
+

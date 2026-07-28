@@ -1,0 +1,20 @@
+layoutis a pre planned strucctue of a web page,
+it is implemented through boxes,
+so web page is collection of boxes,
+it has attributes so it looks presentable(with opening tags) 
+boxes are containers of elements(mostly written after opening tags)
+it contains one or more elements like text,image,link,form,tables.
+the content on the boxes are displayed on web pages.
+parent child boxes are possible
+flex-box techniques is a conventional way for designing layout of a web page having several boxes.
+
+FLEXBOX DESIGNING---------------------->>>>>>>
+parent box(controller) required to control child boxes
+parent(controller) controls the positioning of child boxes.
+positioning of boxes can be done in one direction either main axis(x direction) or cross axis(y direction)
+
+
+EXTRASS----------------->>>>>
+by default the controller accomodates all child boxes in one axis.
+so the size of child boxes may be shrinked by controller to accomodatesall child boxes.
+child boxes can be fixed size boxes or flexible size boxes.
