@@ -1,0 +1,30 @@
+API(APPLICATION KE INTERACTION KE LIYE HAE)
+rest api
+graphical api
+soap api(simple object protocol)(used in banking)
+websocket api()
+
+2.asynchronous operetions(promise can be in 3 state (pending resolve(positive) rejected(error response)))
+(time taking code which runs after synchronous code)
+copies name ka object ban jata hae jisme sare operations perform honge
+the promise object represents the eventual completion or failure of an asynchronous operation 
+and thus object has collection of async operationcompleteion/failure values
+
+so promise is an object which is created when an asyn operation is calledd
+
+fetch browser ka func hota hae 
+
+`try-catch`             
+1.Exception handle karta hai       
+2.Error/exception handling          
+3.Exception occurrence              
+4.JVM exception throw kar sakti hai 
+5.Example: divide by zero           
+
+then if code okay hae then yahi execute hoga
+catch tab execute hoga jab error hoga
+finally 
+
+
+reflow or repaints
+chages made through the dom update the displayed web page right away without reload 

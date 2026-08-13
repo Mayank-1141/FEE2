@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+    min-height: 100vh;
+    padding: 1rem;
+    transition: all 0.3s ease;
+}
+.fcx{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.fcy{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    height: 10dvh;
+
+}
+.box{
+    padding: 1rem;
+    height: 7rem;
+    width: 14rem;
+    border: 1px solid;
+    border-radius: 8px;
+}
+.card{
+    padding: 1rem;
+    height: 7rem;
+    width: 14rem;
+    border: 1px solid;
+    border-radius: 4px;
+    box-shadow: 0 5px 10px red;
+}
+.bg1{
+    background-color: blue;
+    color: aliceblue;
+
+}

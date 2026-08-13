@@ -1,0 +1,79 @@
+To create a Guess the Number Game using JavaScript in Node.js where the computer generates a random number between 1 and 10, and the user gets 5 chances to guess it correctly.
+
+Concepts Used
+1. require()
+
+Used to import external modules.
+
+const prompt = require("prompt-sync")();
+Imports the prompt-sync package.
+Used to take input from the keyboard.
+2. Random Number Generation
+const secretNumber = Math.floor(Math.random() * 10) + 1;
+
+Explanation
+
+Math.random() → Generates a random decimal number between 0 and 1.
+* 10 → Converts it to a range of 0 to 9.999...
+Math.floor() → Removes the decimal part.  
++1 → Makes the range 1 to 10.
+
+Example:
+
+Math.random() = 0.67
+
+0.67 × 10 = 6.7
+
+Math.floor(6.7) = 6
+
+6 + 1 = 7
+3. Variables
+let attempts = 0;
+let myNumber;
+attempts → Counts how many guesses the user has made.
+myNumber → Stores the user's guessed number.
+4. Constant
+const maxAttempts = 5;
+Stores the maximum number of chances.
+Value cannot be changed.
+5. Taking User Input
+myNumber = Number(prompt("Enter your guess: "));
+prompt() takes input as a string.
+Number() converts it into a number.
+6. While Loop
+while(attempts < maxAttempts)
+
+Purpose
+
+Repeats the game until the player uses all chances or guesses the correct number.
+
+7. Increment Operator
+attempts++;
+
+Increases the attempt count by 1 after every guess.
+
+8. If-Else Statement
+if(myNumber === secretNumber)
+
+Checks whether the guessed number is correct.
+
+Other conditions
+
+else if(myNumber < secretNumber)
+
+Displays
+
+Too Low
+
+Else
+
+Too High
+9. Template Literals
+console.log(`You won in ${attempts} attempts`);
+
+Uses backticks ( ) to insert variable values using ${}.
+
+10. Console Output
+console.log();
+
+Displays messages on the screen.
